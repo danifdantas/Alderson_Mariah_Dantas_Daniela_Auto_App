@@ -1,0 +1,29 @@
+{
+  "name": "auto_app",
+  "version": "1.0.0",
+  "description": " an interactive application using 3D, video,",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danifdantas/Auto_App.git"
+  },
+  "keywords": [
+    "car",
+    "app",
+    "3D",
+    "video",
+    "interactive."
+  ],
+  "author": "Dani Dantas & Mariah Alderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danifdantas/Auto_App/issues"
+  },
+  "homepage": "https://github.com/danifdantas/Auto_App#readme",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
