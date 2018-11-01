@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danifdantas/Auto_App.git"
+    "url": "git+https://github.com/danifdantas/Alderson_Mariah_Dantas_Daniela_Auto_App.git"
   },
   "keywords": [
     "car",
@@ -20,10 +20,13 @@
   "author": "Dani Dantas & Mariah Alderson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danifdantas/Auto_App/issues"
+    "url": "https://github.com/danifdantas/Alderson_Mariah_Dantas_Daniela_Auto_App/issues"
   },
-  "homepage": "https://github.com/danifdantas/Auto_App#readme",
+  "homepage": "https://github.com/danifdantas/Alderson_Mariah_Dantas_Daniela_Auto_App#readme",
   "dependencies": {
     "node-sass": "^4.9.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
