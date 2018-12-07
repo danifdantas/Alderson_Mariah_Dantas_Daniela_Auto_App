@@ -6,7 +6,7 @@ const vm = new Vue({
     },
     methods:{
         getData(){
-            let targetURL = "/includes/connect.php?car=all";
+            let targetURL = "/database/connect.php?car=all";
             fetch(targetURL) 
             .then(res => res.json()) 
             .then(data => {

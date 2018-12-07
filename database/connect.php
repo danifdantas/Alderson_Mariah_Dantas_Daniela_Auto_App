@@ -1,6 +1,7 @@
 <?php 
+
     $user = "root";
-    $pass = "root";
+    $pass = "";
     $host = "localhost";
     $db = "db_auto_app";
 
@@ -12,7 +13,7 @@
     }
     //  echo "connected!";
     // Write a db query
-    $myQuery = "SELECT * FROM tbl_test";
+    $myQuery = "SELECT * FROM tbl_car";
     $result = mysqli_query($conn, $myQuery);
     $rows = array();
 
