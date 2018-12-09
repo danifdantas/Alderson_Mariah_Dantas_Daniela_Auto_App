@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
     <title>Auto App</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1 class="hide">1970 Dodge Challenger</h1>
-    
+
     <main id="app">
-        <a v-on:click="testConnect" class="button">enter</a>
-
-
+      <header class="v-header container">
+        <div class="vid-wrap">
+          <video
+            src="video/Dode_callenger_compressed.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+        <div class="vid-overlay"></div>
+        <div class="content">
+          <a v-on:click="testConnect" class="button">enter</a>
+        </div>
+      </header>
     </main>
 
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
