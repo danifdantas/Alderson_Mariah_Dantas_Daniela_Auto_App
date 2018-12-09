@@ -56,18 +56,23 @@ body {
 .content {
     z-index: 2;
     margin: auto;
+    margin-top: 80vh;
     a {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         padding: 10px 20px;
         border: 2px solid $white;
         background-color: $alphaGrey;
-        color: $red;
+        color: $white;
         text-transform: uppercase;
         border-radius: 20px;
-        margin-top: 50px;
-        margin-left: 50px;
         cursor: pointer;
+        transition: all 0.5s ease;
+        &:hover {
+            background-color: $alphaWhite;
+            color: #000;
+            border: 3px solid #000;
+        }
     }
 }
 
